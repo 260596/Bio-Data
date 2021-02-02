@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Notes</title>
+  </head>
+  <body>
+
+<h1>HTML Notes</h1>
+<h1>headline 1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+        <!--heading element only go from h1 to h6 -->
+<br>
+    <!-- <br> its a line breaking tag.use for space.
+    must not have an end tag its self closing tag -->
+    <!--Referance  MDN , w3school , devdocs   -->
+<hr>
+     <!--Horizontal row tag -->
+     <!--Horizontal row tag also a self closing tag .
+      if want to increase the thick of Horizontal
+      line add some attributes -->
+<h3>horizontal row tag with attributes</h3>
+<br>
+<hr size='3' noshade>
+      <!--size=3 noshade is the attribute .For more attributes
+       visit https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr  -->
+       <center>
+         <h1>headline 1</h1>
+         <h2>h2</h2>
+         <h3>h3</h3>
+         <h4>h4</h4>
+         <h5>h5</h5>
+         <h6>h6</h6>
+         </center>
+       <!--<center> content  </center>  center tag for align the content to center-->
+       <!--refer devdocs for html element and attributes-->
+<<h3>HTML Boilerplate</h3>
+<!--<!DOCTYPE html>         = it represent version of HTML
+<html lang="en" dir="ltr">  = it represent everything between open&closing tag is html.
+  <head>                    =<head></head> all information about the webpage
+                             and tell the browser how should handle this page
+    <meta charset="utf-8">  = charset is a attribute for diff operations like search engine,
+                              description , view point , keyword, authur .
+                              utf-8 is a standard encoding
+    <title></title>         = heading for search engine
+  </head>
+  <body>                    = all webpage condent
+  </body>
+</html>
+      visit MDN for meta attributes . the above all are the explanation of boiler plate code -->
+<br>
+<p> P tag is paragraph tag </p>
+<br>
+<h3>Letter Fond styles</h3>
+
+<em>Arun Ganesh</em><br>          <!--emphasis tag -->
+<i>Arun Ganesh</i><br>            <!-- italic tag -->
+<strong>Arun Ganesh</strong><br>  <!--strong tag -->
+<b>Arun Ganesh</b><br>            <!--bold tag -->
+
+<!--more font styles available to refer visit MDN -->
+
+<h3><strong>Bullet list</strong></h3>
+<h3>Education</h3>
+<ul>
+  <li>Completed Graduation at Government college of engineering,Trichy.</li>
+  <li>Completed Diplomo at V.D.P.college , Nagapattinam</li>
+  <li>Schooling - v.s.boys.higher secondary school , Thiruvarur</li>
+</ul>
+<ol>
+  <li>Completed Graduation at Government college of engineering,Trichy.</li>
+  <li>Completed Diplomo at V.D.P.college , Nagapattinam</li>
+  <li>Schooling - v.s.boys.higher secondary school , Thiruvarur</li>
+</ol>
+<ol type=i>
+  <li>Completed Graduation at Government college of engineering,Trichy.</li>
+  <li>Completed Diplomo at V.D.P.college , Nagapattinam</li>
+  <li>Schooling - v.s.boys.higher secondary school , Thiruvarur</li>
+</ol>
+<ol start=6>
+  <li>Completed Graduation at Government college of engineering,Trichy.</li>
+  <li>Completed Diplomo at V.D.P.college , Nagapattinam</li>
+  <li>Schooling - v.s.boys.higher secondary school , Thiruvarur</li>
+</ol>
+<!-- <ul> </ul>        un order list tag
+     <li> </li>        list item tag
+     <ol> </ol>        order list
+     <ol type=i></ol>  roman numerical list
+     <ol start=6></ol> order list number start from 6 -->
+     <h3>Image element</h3>
+     <img src="https://imagine.gsfc.nasa.gov/Images/objects/milkyway_sky_alma.jpg" alt="Nasa">
+     <img src="images/arun.JPG"width='310' height='410'alt="profile picture">
+
+  <!--the first image copied from internet using image address (url)
+      the second image is imported from the inside the html personal site folder -->
+      <br>
+<h3>Links and Anchor tags</h3><br>
+<h1>Arun Ganesh</h1>
+<p><em>Full Stack Web Developer at <strong><a href="https://www.zohocorp.com/">ZOHO CORP CHENNAI</a></strong></em></p>
+<p>I'm a full stack web developer.I like to travel the world🌍.Living in <a href="https://en.wikipedia.org/wiki/India">India.</a></p>
+
+<!-- <a href="hyper link"> link name display in webpage </a>-->
+
+<h4>Add Links inside the folder</h4>
+<a href="Hobbies.html">My Hobbies</a> <br>
+<a href="Contact info.html">Contact Me</a>
+
+<!--this hyper link also can import from folder location like above Hobbiesand contact info -->
+
+<h2>HTML Tables</h2>
+<h3>Educational Year</h3>
+<table cellspacing='10'>
+  <thead>
+    <tr>
+      <th>Year Of Passing</th>
+      <th>College</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>2011-2014</td>
+    <td>V.D.P.College</td>
+  </tr>
+  <tr>
+    <td>2014-2017</td>
+    <td>Government college of engineering</td>
+  </tr>
+</tbody>
+
+</table>
+<!-- <thead></thead> table head to create a table head (first row)
+     <tr></tr>       table row
+     <th></th>       table head cell if need another cell add another <th></th>
+     <td></td>       table cell its a normal cell if need another cell add another <td></td>
+differance between <th></th> and <td></td> is table head cell shows bolder than table cell
+add cellspacing the space between this all cells are change as per requirement  -->
+
+<h2>using html table for layout</h2>
+<hr size='3' noshade>
+<table cellspacing='10'>
+  <tr>
+    <td><img src="images/arun web profile.png" width='210'height="210"alt="profile picture"></td>
+    <td><h1>Arun Ganesh</h1>
+    <p><em>Full Stack Web Developer at <strong><a href="https://www.zohocorp.com/">ZOHO CORP CHENNAI</a></strong></em></p>
+    <p>I'm a full stack web developer.I like to travel the world🌍.Living in <a href="https://en.wikipedia.org/wiki/India">India.</a></p></td>
+  </tr>
+</table>
+<hr>
+<h4> Multiple coloumn and using emojis</h4>
+<h3>Skills</h3>
+<table>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Web developement</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Graphic design</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>Photography</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Public speaking</td>
+          <td>⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--First create a table and add 1.<tr> <td></td><td></td> </tr>
+    2.<tr> <td></td><td></td> </tr> it forms two row and two cells
+    copy the 1 and 2 (total table) paste this to a new table <table>
+    <tr> <td>(1)</td><td>(2)</td> </tr> </table>  the result will come-->
+
+<h3>HTML Form</h3>
+
+        <hr>
+        <h1>My Contact Details</h1>
+    <p><strong>ARUN GANESH A S <br>
+    PHONE : +918760858533 <br>
+    EMAIL : arunganesh285@gmail.com</strong></p>
+    <hr>
+    <form class="" action="index.html" method="post"
+    <label>Your Name</label>
+    <input type="text" name="">
+    <input type="color" name="" value=""><br>
+    <label>Password </label>
+    <input type="text" name="" value=""><br>
+    <label>do you want to sign up</label>
+    <input type="checkbox" name="" value=""><br>
+    <input type="file" name="" value=""><br>
+    <input type="date" name="" value=""><br>
+    <input type="radio" name="" value=""><br>
+    <input type="range" name="" value=""><br>
+    <input type="submit" name="">
+
+    </form>
+
+    <!-- <form class="" action="index.html" method="post">=Form Element
+          <label>Your Name</label>              = the title or qus for a user
+          <input type="text" name="" value="">  = type of input like text,color,submit etc
+          <label>Password</label>               = the title or qus for a user
+          </form>
+          refer MDN and learn all of the inputs type   -->
+          <hr>
+          <h3>Create a contact me form</h3>
+          <form  action="mailto:arunganesh285@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name</label>
+            <input type="text" name="your name"><br>
+            <label>Your Email:</label>
+            <input type="email" name="youremail" value=""><br>
+            <label>Your Message: </label><br>
+            <textarea name="your Message" rows="10" cols="30"></textarea><br>
+            <input type="submit" name=""><br>
+          </form>
+
+          <!--action means to mail the input details so before mention mailto (mail Anchor)
+              method is method of form = post to mail address 
+              enctype='text/plain' is a type of standard encoding like utf-8 and
+              text/plain attribute is the form of the file for ex pdf or video on plain Message.
+              all the input tag one name is there for identify name or email or message  -->
+
+  </body>
+</html>
